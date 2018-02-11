@@ -5,3 +5,4 @@
  */
 Route::redirect('/', '/admin/dashboard', 301);
 Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+Route::post('dashboard', 'DashboardController@index')->name('dashboard');
